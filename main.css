@@ -10,6 +10,7 @@ section#main {
   padding-top: 83px;
 
 }
+
 section#footer {
   clear: both;
   font-family: "Hind Vadodara", sans-serif;
@@ -18,6 +19,12 @@ section#footer {
   padding-top: 20px;
   text-align: center;
 }
+
+
+
+
+
+
 /* Background Styles */
 
 div#background_top {
@@ -29,8 +36,12 @@ div#background_top {
   z-index: -1;  
 }
 
-/* Main Style */
 
+
+
+
+
+/* Main Style */
 
 img#phones {
   float: left;
@@ -106,8 +117,11 @@ body {
   padding: 25px 10px;
 }
 
-/* Footer Style */
 
+
+
+
+/* Footer Style */
 
 #footer_content {
   list-style: none;
