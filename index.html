@@ -1,47 +1,58 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Instagram</title>
-  <link href="main.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <!---Title: what shows in browser-->
+  <title>Instagram</title> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Link to Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,600|Roboto:400,700" rel="stylesheet">
+
+  <!--Links HTML & CSS files-->
+  <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
+
 <body>
-  <div class="page">
+    <div id="background_top" ></div><!--Creates ID for background-->
+  
+    <section id="main">
+      <img id="phones" src="images/phones.png" alt="two smart phones displaying Instagram photos.">
+      <div id="main_right_column">
+        <div id="top_right_column">
+          <img id="brand" src="images/brand.png" alt="">
+          <button id="home" class="button">
+            <span>Log in</span>
+          </button>
+        </div>
 
-    <div class="content">
-      <h1><img src="images/brand.png" alt="Instagram"></h1>
-
-      <div class="main" role="main">
-        <h2>Capture and Share<br> the World's Moments</h2>
-
-        <p>Instagram is a <b>fast</b>, <b>beautiful</b> and <b>fun</b> way to share your life with friends and family.</p>
-
-        <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
-
-        <p>Oh yeah, did we mention it's free?</p>
-
-        <a href="#">
-          <img src="images/badge-iphone.png" alt="Download on the App Store">
-        </a>
-        <a href="#">
-          <img src="images/badge-android.png" alt="Get it on Google Play">
-        </a>
+        <div id="white_img_frame">
+          <div id="frame_content">
+            <h1>Capture and Share<br>
+              the World's Moments</h1>
+            <p>Instagram is a <strong>fast, beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.</p>
+            <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram - it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+            <p>Oh yeah, did we mention it's free?</p>
+          
+          <img id="iphone_badge" class="badge" src="images/badge-iphone.png" alt="download at the mac app store">
+          <img id="android_badge" class="badge" src="images/badge-android.png" alt="download at the google play store.">
+          </div>
+        </div>
       </div>
-    </div>
-
-    <img src="images/phones.png" class="product-photo" alt="iPhone showing Instagram application">
-
-    <ul class="footer" role="contentinfo">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Support</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">API</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li>&copy; 2014 Instagram</li>
-    </ul>
-
-  </div>
+    </section>    
+    <section id="footer">
+      <ul id="footer_content">
+        <li>ABOUT US</li>
+        <li>SUPPORT</li>
+        <li>BLOG</li>
+        <li>PRESS</li>
+        <li>API</li>
+        <li>JOBS</li>
+        <li>PRIVACY</li>
+        <li>TERMS</li>
+        <li id="copyright">© 2017 INSTAGRAM</li>
+      </ul>
+    </section>
+  </section>
 </body>
 </html>
